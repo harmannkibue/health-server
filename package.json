@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server that gets data from the APIs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "kibuikacodes@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "12.2.0"
+  }
+}
